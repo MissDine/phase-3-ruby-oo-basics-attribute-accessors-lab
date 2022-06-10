@@ -5,3 +5,11 @@
 #attr_writer -setter
 # attr_reader-getter
 # If we need to have both a getter and a setter method for an attribute on our Person class (which isn't always the case — we'll learn more about that later), we can use another macro called an attribute accessor.
+
+class Cat
+    attr_accessor :name
+
+    def meow
+        puts "meow!"
+    end    
+end    
